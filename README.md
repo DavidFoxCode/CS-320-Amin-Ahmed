@@ -20,4 +20,18 @@ For Project One, I developed a mobile application with Contact, Task, and Appoin
 
 ## Reflections on Portfolio Work
 
-This portfolio demonstrates my ability to interpret requirements, design software, write technically sound and efficient code, and apply robust software testing techniques. Submitting these artifacts highlights my growth in applying unit tests, understanding code interdependencies, and documenting my work in a professional manner for future employers or coursework.
+This portfolio demonstrates my ability to interpret requirements, design software, write technically sound and efficient code, and apply robust software testing techniques. Submitting these artifacts highlights my growth in applying unit tests, understanding code interdependencies, and documenting my work in a professional manner for future employers or coursework, for this portfolio submission, I included some of my best work from this course. From Project One, I added the contact service files (Contact.java, ContactService.java, ContactTest.java, ContactServiceTest.java), which showcase my ability to write unit tests, uncover errors, and ensure software functionality. From Project Two, I included my summary and reflections report, which highlights how I analyzed testing approaches based on requirements and applied strategies to make sure the code works correctly. Together, these artifacts demonstrate my skills in software testing, automation, and quality assurance.
+
+## How to ensure Functional and Secure Code?
+
+ To make sure my code and programs are functional and secure, I focus on thorough unit testing and coverage, double-checking input validation, and following best practices for secure coding. Using Maven and JUnit in VSCode helped me automate tests and ensure everything runs as expected. I also pay attention to potential edge cases and scenarios that might break the software, which helps reduce bugs before deployment.
+
+## How to interpret User Needs?
+
+ Understanding what the user actually needs is key, so I make sure to carefully review requirements before writing any code. I break down the features into smaller tasks and check that each one aligns with what the user wants. Feedback from milestones also helped me adjust my approach to make the code more accurate and user-focused.
+
+## How to approach Designing Software?
+
+ I usually start with planning and mapping out the components of the program, thinking about how classes and services interact, and identifying where tests are needed. Then I code in small, testable parts and continuously test them as I go. This approach keeps the design modular, easier to maintain, and reduces the chance of introducing bugs.
+Overall, this portfolio submission shows not just the work I’ve done, but the thought process behind it, the testing strategies I used, and my focus on delivering high-quality, reliable software.
+
