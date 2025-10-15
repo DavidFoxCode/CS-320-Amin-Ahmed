@@ -1,0 +1,22 @@
+Project Two: Summary and Reflections
+
+In Project One, I worked on developing a mobile application that included contact, task, and appointment services, and for Project Two, I focused
+on summarizing and reflecting on the unit testing I performed, the strategies I used, and the quality of my JUnit tests. For each feature, I made 
+sure my unit testing approach aligned closely with the software requirements. For the contact service, I verified that all fields and methods met the 
+required specifications, including unique IDs, proper string lengths, and updatable fields. For the task and appointment services, I followed the same approach
+,ensuring that task IDs and appointment IDs were unique, required fields were never null, and updates were applied correctly. Using Maven on VSCode made running 
+and managing my tests straightforward, and I achieved 100% test coverage across all Java files.
+
+Writing the JUnit tests was a great learning experience. I had to carefully think about edge cases, error handling, and input validation, which helped me ensure that
+the code was technically sound. For example, I used assertions to check that updates to tasks and appointments actually reflected in the in-memory storage, and I verified 
+that invalid inputs were properly rejected. I also paid attention to efficiency, making sure my tests ran quickly without redundant steps, and I reused test setup code wherever
+ possible to keep things DRY.
+
+The main testing techniques I employed included unit testing to validate individual methods and integration checks to confirm that updates, additions, and deletions worked correctly
+across related objects. I didn’t use techniques like stress testing or load testing because the project was small and focused on in-memory services without a user interface. The practical
+ implication of this is that my approach is solid for ensuring correctness and catching logic errors in small-scale systems, while other techniques would be necessary for performance
+ or large-scale applications.
+
+While testing, I adopted a cautious mindset, double-checking assumptions and validating edge cases, which is crucial in preventing bugs from escaping into production. 
+I also made an effort to limit bias by reviewing my code objectively and considering scenarios where my assumptions might fail. Overall, this project reinforced the importance
+of discipline in software engineering, showing me that careful, systematic testing helps avoid technical debt and ensures reliable, maintainable code.
